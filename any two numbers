@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main() {
+    int a, b;
+    printf("a= ");
+    scanf("%d", &a);
+    printf("b= ");
+    scanf("%d", &b);
+
+    // Swapping process
+    a = a - b;
+    b = a + b;
+    a = b - a;
+
+    printf("After swapping, a = %d\n", a);
+    printf("After swapping, b = %d", b);
+    return 0;
+    }
